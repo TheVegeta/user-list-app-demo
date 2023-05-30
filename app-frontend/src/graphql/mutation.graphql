@@ -1,0 +1,17 @@
+mutation RegisterUser($options: ICreaeUser!) {
+  registerUser(options: $options) {
+    success
+    msg
+    jwt
+    username
+  }
+}
+
+mutation UserAtuh($options: IUserAuthInput!) {
+  userAtuh(options: $options) {
+    success
+    msg
+    jwt
+    username
+  }
+}

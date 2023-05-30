@@ -1,0 +1,13 @@
+query GetAllUser {
+  getAllUser {
+    id
+    username
+    mobile
+    hash
+    email
+    age
+    registerDate
+    isForLogin
+    isActive
+  }
+}
